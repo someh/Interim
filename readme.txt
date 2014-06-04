@@ -1,7 +1,12 @@
 Ces apllications,l'analyse et les fichiers d'information sont sous license gpl
 ------------------------------------------------------------------------------
 
+Application superviseur --> InterimSupSwing
+Application utilisateur --> InterimSwing
+
 Pour utiiliser les apllications, changez les informations suivante :
+
+Allez dans le dossier Applications
 
 importez le fichier cinterim.sql qui se trouve dans le dossier DumpSql.
 
