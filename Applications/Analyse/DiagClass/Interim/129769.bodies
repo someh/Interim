@@ -1,0 +1,25 @@
+class UserACommeMetier
+!!!142569.java!!!	toString() : String
+		return "UserACommeMetier [id=" + id + ", metiers=" + metiers
+				+ ", cv=" + cv + "]";
+!!!142825.java!!!	UserACommeMetier(inout id : UserACommeMetierId, inout metiers : Metiers, inout users : Users, in cv : String)
+		this.id = id;
+		this.metiers = metiers;
+		this.users = users;
+		this.cv = cv;
+!!!142953.java!!!	getId() : UserACommeMetierId
+		return this.id;
+!!!143081.java!!!	setId(inout id : UserACommeMetierId) : void
+		this.id = id;
+!!!143209.java!!!	getMetiers() : Metiers
+		return this.metiers;
+!!!143337.java!!!	setMetiers(inout metiers : Metiers) : void
+		this.metiers = metiers;
+!!!143465.java!!!	getUsers() : Users
+		return this.users;
+!!!143593.java!!!	setUsers(inout users : Users) : void
+		this.users = users;
+!!!143721.java!!!	getCv() : String
+		return this.cv;
+!!!143849.java!!!	setCv(in cv : String) : void
+		this.cv = cv;

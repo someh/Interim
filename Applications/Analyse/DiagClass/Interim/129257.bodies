@@ -1,0 +1,37 @@
+class Rdvs
+!!!138217.java!!!	Rdvs(inout id : RdvsId, inout contacts : Contacts, inout users : Users, inout date : Date)
+		this.id = id;
+		this.contacts = contacts;
+		this.users = users;
+		this.date = date;
+!!!138345.java!!!	Rdvs(inout id : RdvsId, inout contacts : Contacts, inout users : Users, inout date : Date, in description : String, in dir : String)
+		this.id = id;
+		this.contacts = contacts;
+		this.users = users;
+		this.date = date;
+		this.description = description;
+		this.dir = dir;
+!!!138473.java!!!	getId() : RdvsId
+		return this.id;
+!!!138601.java!!!	setId(inout id : RdvsId) : void
+		this.id = id;
+!!!138729.java!!!	getContacts() : Contacts
+		return this.contacts;
+!!!138857.java!!!	setContacts(inout contacts : Contacts) : void
+		this.contacts = contacts;
+!!!138985.java!!!	getUsers() : Users
+		return this.users;
+!!!139113.java!!!	setUsers(inout users : Users) : void
+		this.users = users;
+!!!139241.java!!!	getDate() : Date
+		return this.date;
+!!!139369.java!!!	setDate(inout date : Date) : void
+		this.date = date;
+!!!139497.java!!!	getDescription() : String
+		return this.description;
+!!!139625.java!!!	setDescription(in description : String) : void
+		this.description = description;
+!!!139753.java!!!	getDir() : String
+		return this.dir;
+!!!139881.java!!!	setDir(in dir : String) : void
+		this.dir = dir;

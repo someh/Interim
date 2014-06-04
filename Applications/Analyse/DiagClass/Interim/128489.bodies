@@ -1,0 +1,25 @@
+class Metiers
+!!!136425.java!!!	toString() : String
+		return StringEscapeUtils.unescapeHtml4(metier);
+!!!136553.java!!!	Metiers(in metier : String)
+		this.metier = metier;
+!!!136681.java!!!	Metiers(in metier : String, inout userACommeMetiers : Set, inout annonceses : Set)
+		this.metier = metier;
+		this.userACommeMetiers = userACommeMetiers;
+		this.annonceses = annonceses;
+!!!136809.java!!!	getIdMetier() : Integer
+		return this.idMetier;
+!!!136937.java!!!	setIdMetier(inout idMetier : Integer) : void
+		this.idMetier = idMetier;
+!!!137065.java!!!	getMetier() : String
+		return StringEscapeUtils.unescapeHtml4(this.metier);
+!!!137193.java!!!	setMetier(in metier : String) : void
+		this.metier = metier;
+!!!137321.java!!!	getUserACommeMetiers() : Set
+		return this.userACommeMetiers;
+!!!137449.java!!!	setUserACommeMetiers(inout userACommeMetiers : Set) : void
+		this.userACommeMetiers = userACommeMetiers;
+!!!137577.java!!!	getAnnonceses() : Set
+		return this.annonceses;
+!!!137705.java!!!	setAnnonceses(inout annonceses : Set) : void
+		this.annonceses = annonceses;

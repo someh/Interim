@@ -1,0 +1,33 @@
+class Adresses
+!!!128105.java!!!	toString() : String
+		return "Adresses [idAdresse=" + idAdresse + ", rue=" + rue + ", code="
+				+ code + ", ville=" + ville + "]";
+!!!128361.java!!!	Adresses(in rue : String, in code : String, in ville : String)
+		this.rue = rue;
+		this.code = code;
+		this.ville = ville;
+!!!128489.java!!!	Adresses(in rue : String, in code : String, in ville : String, inout userses : Set)
+		this.rue = rue;
+		this.code = code;
+		this.ville = ville;
+		this.userses = userses;
+!!!128617.java!!!	getIdAdresse() : Integer
+		return this.idAdresse;
+!!!128745.java!!!	setIdAdresse(inout idAdresse : Integer) : void
+		this.idAdresse = idAdresse;
+!!!128873.java!!!	getRue() : String
+		return this.rue;
+!!!129001.java!!!	setRue(in rue : String) : void
+		this.rue = rue;
+!!!129129.java!!!	getCode() : String
+		return this.code;
+!!!129257.java!!!	setCode(in code : String) : void
+		this.code = code;
+!!!129385.java!!!	getVille() : String
+		return this.ville;
+!!!129513.java!!!	setVille(in ville : String) : void
+		this.ville = ville;
+!!!129641.java!!!	getUserses() : Set
+		return this.userses;
+!!!129769.java!!!	setUserses(inout userses : Set) : void
+		this.userses = userses;

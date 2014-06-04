@@ -1,0 +1,65 @@
+class Users
+!!!146281.java!!!	toString() : String
+		return "Users [idUser=" + idUser + ", nom=" + nom
+				+ ", prenom=" + prenom + ", tel=" + tel + ", adresses=" + adresses + ", logins=" + logins
+				+ ", rdvses=" + rdvses
+				+ ", userACommeMetiers=" + userACommeMetiers + "]";
+!!!146537.java!!!	Users(inout logins : Logins, inout adresses : Adresses, in nom : String, in prenom : String, in email : String, in role : String, in tel : String)
+		this.logins = logins;
+		this.adresses = adresses;
+		this.nom = nom;
+		this.prenom = prenom;
+		this.tel = tel;
+!!!146665.java!!!	Users(inout logins : Logins, inout adresses : Adresses, in nom : String, in prenom : String, in email : String, in role : String, in tel : String, inout rdvses : Set, inout userACommeMetiers : Set)
+		this.logins = logins;
+		this.adresses = adresses;
+		this.nom = nom;
+		this.prenom = prenom;
+		this.tel = tel;
+		this.rdvses = rdvses;
+		this.userACommeMetiers = userACommeMetiers;
+!!!146793.java!!!	getIdUser() : Integer
+		return this.idUser;
+!!!146921.java!!!	setIdUser(inout idUser : Integer) : void
+		this.idUser = idUser;
+!!!147049.java!!!	getLogins() : Logins
+		return this.logins;
+!!!147177.java!!!	setLogins(inout logins : Logins) : void
+		this.logins = logins;
+!!!147305.java!!!	getAdresses() : Adresses
+		return this.adresses;
+!!!147433.java!!!	setAdresses(inout adresses : Adresses) : void
+		this.adresses = adresses;
+!!!147561.java!!!	getNom() : String
+		return this.nom;
+!!!147689.java!!!	setNom(in nom : String) : void
+		this.nom = nom;
+!!!147817.java!!!	getPrenom() : String
+		return this.prenom;
+!!!147945.java!!!	setPrenom(in prenom : String) : void
+		this.prenom = prenom;
+!!!148073.java!!!	getEmail() : String
+		return email;
+!!!148201.java!!!	setEmail(in email : String) : void
+		this.email = email;
+!!!148329.java!!!	getRole() : String
+		return role;
+!!!148457.java!!!	setRole(in role : String) : void
+		this.role = role;
+!!!148585.java!!!	getTel() : String
+		return this.tel;
+!!!148713.java!!!	setTel(in tel : String) : void
+		this.tel = tel;
+!!!148841.java!!!	getRdvses() : Set
+		return this.rdvses;
+!!!148969.java!!!	setRdvses(inout rdvses : Set) : void
+		this.rdvses = rdvses;
+!!!149097.java!!!	getUserACommeMetiers() : Set
+		return this.userACommeMetiers;
+!!!149225.java!!!	setUserACommeMetiers(inout userACommeMetiers : Set) : void
+		this.userACommeMetiers = userACommeMetiers;
+!!!149353.java!!!	isLogin() : Boolean
+		if(idUser!=0 && idUser!=null)
+		return true;
+		else return false;
+		

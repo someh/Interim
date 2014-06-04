@@ -1,0 +1,36 @@
+class RdvsId
+!!!140137.java!!!	RdvsId(in idRdv : int, in idUser : int, in idContact : int)
+		this.idRdv = idRdv;
+		this.idUser = idUser;
+		this.idContact = idContact;
+!!!140265.java!!!	getIdRdv() : int
+		return this.idRdv;
+!!!140393.java!!!	setIdRdv(in idRdv : int) : void
+		this.idRdv = idRdv;
+!!!140521.java!!!	getIdUser() : int
+		return this.idUser;
+!!!140649.java!!!	setIdUser(in idUser : int) : void
+		this.idUser = idUser;
+!!!140777.java!!!	getIdContact() : int
+		return this.idContact;
+!!!140905.java!!!	setIdContact(in idContact : int) : void
+		this.idContact = idContact;
+!!!141033.java!!!	equals(inout other : Object) : boolean
+		if ((this == other))
+			return true;
+		if ((other == null))
+			return false;
+		if (!(other instanceof RdvsId))
+			return false;
+		RdvsId castOther = (RdvsId) other;
+
+		return (this.getIdRdv() == castOther.getIdRdv())
+				&& (this.getIdUser() == castOther.getIdUser())
+				&& (this.getIdContact() == castOther.getIdContact());
+!!!141161.java!!!	hashCode() : int
+		int result = 17;
+
+		result = 37 * result + this.getIdRdv();
+		result = 37 * result + this.getIdUser();
+		result = 37 * result + this.getIdContact();
+		return result;

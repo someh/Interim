@@ -1,0 +1,11 @@
+window_sizes 1600 837 375 1125 722 38
+diagrams
+  active  usecasediagram_ref 128002 // App
+    1219 722 100 4 228 0
+end
+show_stereotypes
+selected usecase_ref 128130 // modifier profil
+open
+  usecaseview_ref 128002 // useCase
+end
+end

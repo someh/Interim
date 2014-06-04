@@ -1,0 +1,33 @@
+class Logins
+!!!134505.java!!!	toString() : String
+		return "Logins [idLogin=" + idLogin
+				+ ", username=" + username + ", password=" + password
+				+ ", token=" + token + "]";
+!!!134761.java!!!	Logins(in username : String, in password : String)
+		this.username = username;
+		this.password = password;
+!!!134889.java!!!	Logins(in username : String, in password : String, in email : String, in token : String, inout userses : Set)
+		this.username = username;
+		this.password = password;
+		this.token = token;
+		this.userses = userses;
+!!!135017.java!!!	getIdLogin() : Integer
+		return this.idLogin;
+!!!135145.java!!!	setIdLogin(inout idLogin : Integer) : void
+		this.idLogin = idLogin;
+!!!135273.java!!!	getUsername() : String
+		return this.username;
+!!!135401.java!!!	setUsername(in username : String) : void
+		this.username = username;
+!!!135529.java!!!	getPassword() : String
+		return this.password;
+!!!135657.java!!!	setPassword(in password : String) : void
+		this.password = password;
+!!!135785.java!!!	getToken() : String
+		return this.token;
+!!!135913.java!!!	setToken(in token : String) : void
+		this.token = token;
+!!!136041.java!!!	getUserses() : Set
+		return this.userses;
+!!!136169.java!!!	setUserses(inout userses : Set) : void
+		this.userses = userses;

@@ -1,0 +1,11 @@
+window_sizes 1600 837 375 1125 600 82
+diagrams
+  active  classdiagram_ref 128105 // DiagClass
+    1219 679 100 4 0 0
+end
+show_stereotypes
+selected class_ref 128745 // Logins
+open
+  classview_ref 128105 // model
+end
+end

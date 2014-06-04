@@ -1,0 +1,48 @@
+class Contacts
+!!!132073.java!!!	Contacts(in entreprise : String, in contact : String, in adresse : String, in commune : String, in email : String, in tel : String, inout rdvses : Set, inout annonceses : Set)
+		super();
+		this.idContact = idContact;
+		this.entreprise = entreprise;
+		this.contact = contact;
+		this.adresse = adresse;
+		this.commune = commune;
+		this.email = email;
+		this.tel = tel;
+		this.rdvses = rdvses;
+		this.annonceses = annonceses;
+!!!132201.java!!!	getIdContact() : Integer
+		return this.idContact;
+!!!132329.java!!!	setIdContact(inout idContact : Integer) : void
+		this.idContact = idContact;
+!!!132457.java!!!	getEntreprise() : String
+		return this.entreprise;
+!!!132585.java!!!	setEntreprise(in entreprise : String) : void
+		this.entreprise = entreprise;
+!!!132713.java!!!	getContact() : String
+		return this.contact;
+!!!132841.java!!!	setContact(in contact : String) : void
+		this.contact = contact;
+!!!132969.java!!!	getAdresse() : String
+		return this.adresse;
+!!!133097.java!!!	setAdresse(in adresse : String) : void
+		this.adresse = adresse;
+!!!133225.java!!!	getCommune() : String
+		return this.commune;
+!!!133353.java!!!	setCommune(in commune : String) : void
+		this.commune = commune;
+!!!133481.java!!!	getRdvses() : Set
+		return this.rdvses;
+!!!133609.java!!!	setRdvses(inout rdvses : Set) : void
+		this.rdvses = rdvses;
+!!!133737.java!!!	getAnnonceses() : Set
+		return this.annonceses;
+!!!133865.java!!!	setAnnonceses(inout annonceses : Set) : void
+		this.annonceses = annonceses;
+!!!133993.java!!!	getEmail() : String
+		return email;
+!!!134121.java!!!	setEmail(in email : String) : void
+		this.email = email;
+!!!134249.java!!!	getTel() : String
+		return tel;
+!!!134377.java!!!	setTel(in tel : String) : void
+		this.tel = tel;

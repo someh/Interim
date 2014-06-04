@@ -1,0 +1,36 @@
+class Annonces
+!!!130025.java!!!	Annonces(inout metiers : Metiers, inout contacts : Contacts, in secteur : String, in fonction : String, in description : String, inout date : Date)
+		this.metiers = metiers;
+		this.contacts = contacts;
+		this.secteur = secteur;
+		this.fonction = fonction;
+		this.description = description;
+		this.date = date;
+!!!130153.java!!!	getIdAnnonce() : Integer
+		return this.idAnnonce;
+!!!130281.java!!!	setIdAnnonce(inout idAnnonce : Integer) : void
+		this.idAnnonce = idAnnonce;
+!!!130409.java!!!	getMetiers() : Metiers
+		return this.metiers;
+!!!130537.java!!!	setMetiers(inout metiers : Metiers) : void
+		this.metiers = metiers;
+!!!130665.java!!!	getContacts() : Contacts
+		return this.contacts;
+!!!130793.java!!!	setContacts(inout contacts : Contacts) : void
+		this.contacts = contacts;
+!!!130921.java!!!	getSecteur() : String
+		return this.secteur;
+!!!131049.java!!!	setSecteur(in secteur : String) : void
+		this.secteur = secteur;
+!!!131177.java!!!	getFonction() : String
+		return this.fonction;
+!!!131305.java!!!	setFonction(in fonction : String) : void
+		this.fonction = fonction;
+!!!131433.java!!!	getDescription() : String
+		return this.description;
+!!!131561.java!!!	setDescription(in description : String) : void
+		this.description = description;
+!!!131689.java!!!	getDate() : Date
+		return this.date;
+!!!131817.java!!!	setDate(inout date : Date) : void
+		this.date = date;
