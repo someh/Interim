@@ -10,7 +10,7 @@ Allez dans le dossier Applications
 
 importez le fichier cinterim.sql qui se trouve dans le dossier DumpSql.
 
-changer le mot de passe du serveur mysql dans le fichier hibernate.cfg.xml 
-dans le fichier InterimSupSwing/src/conf
-changer l'email et le mot de passe de votre compte gmail dans le fichier ParamsSMTP.java
-dans le fichier InterimSupSwing/src/conf
+changer le mot de passe du serveur mysql dans le fichier hibernate.cfg.xml, 
+dans InterimSupSwing/src/conf et dans InterimSwing/src/conf.
+changer l'email et le mot de passe du compte gmail dans le fichier ParamsSMTP.java, 
+dans InterimSupSwing/src/conf et dans InterimSwing/src/conf.
